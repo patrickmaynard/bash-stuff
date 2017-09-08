@@ -4,6 +4,13 @@ alias ll='ls -lG'
 
 
 
+#optional:
+alias storm='open -ga PHPStorm '
+
+
+
+
+
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
