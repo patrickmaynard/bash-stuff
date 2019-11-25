@@ -13,6 +13,13 @@ alias cpth='pwd | pbcopy'
 
 
 
+# I placed a script called "php" in /usr/local/bin, launching a containerized PHP instance.
+# If I want to run my original version of PHP, I can use this alias.
+alias hostphp='/usr/bin/php'
+
+
+
+
 
 
 if [ -f ~/.git-completion.bash ]; then
