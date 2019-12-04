@@ -14,8 +14,9 @@ alias cpth='pwd | pbcopy'
 
 
 # I placed a script called "php" in /usr/local/bin, launching a containerized PHP instance.
-# If I want to run my original version of PHP, I can use this alias.
-alias hostphp='/usr/bin/php'
+# If I want to run my original "host" version of PHP, I can use this alias.
+# (hphp is also the command for the old HipHop transpiler, but that's been discontinued, so I'm not worried about a conflict.)
+alias hphp='/usr/bin/php'
 
 
 
