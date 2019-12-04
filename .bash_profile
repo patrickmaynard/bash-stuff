@@ -17,7 +17,7 @@ alias cpth='pwd | pbcopy'
 # If I want to run my original "host" version of PHP, I can use this alias.
 # (hphp is also the command for the old HipHop transpiler, but that's been discontinued, so I'm not worried about a conflict.)
 alias hphp='/usr/bin/php'
-
+alias hcomposer='hphp /usr/local/bin/composer'
 
 
 
