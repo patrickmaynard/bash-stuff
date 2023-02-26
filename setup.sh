@@ -9,3 +9,5 @@ apt-get install -y qgis gimp
 # Then (assuming you used the thumb drive) re-download your Linux distribution of choice and use Balena Etcher to flash the drive again.
 
 # Then reinstall PHPStorm, using a Google Drive document to hang onto the necessary user key.
+
+# Then reinstall Skype, using the Microsoft email address that you never use in that same document. (You'll have to reset the password that you also never use.)
