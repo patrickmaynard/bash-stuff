@@ -7,6 +7,11 @@ It's now somewhat out-of-date, as I mostly use zsh these days. To install most o
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+... or, on bash:
+
+```
+bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
+```
 
 TODOs:
 
