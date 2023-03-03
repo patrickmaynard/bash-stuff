@@ -2,11 +2,16 @@
 
 # Use f8 to boot from USB and install Linux. Then ...
 
-apt-get install -y qgis gimp neovim
+apt-get install -y qgis gimp neovim python
 
 mkdir -p $HOME/.config && cd $HOME/.config && git clone git@github.com:kevinquinnyo/nvim.git
 
-# Now run   vi   and then do   :PlugInstall   to get all those new plugins running.
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+       
+sudo pip3 install --upgrade neovim
+
+# Now run   nvim   and then do   :PlugInstall   to get all those new plugins running.
 
 # Now copy your documents from the old machine to the new machine via your thumb drive or backup drive.
 
