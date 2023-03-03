@@ -4,6 +4,10 @@
 
 apt-get install -y qgis gimp neovim
 
+mkdir -p $HOME/.config && cd $HOME/.config && git clone git@github.com:kevinquinnyo/nvim.git
+
+# Now run   vi   and then do   :PlugInstall   to get all those new plugins running.
+
 # Now copy your documents from the old machine to the new machine via your thumb drive or backup drive.
 
 # Then (assuming you used the thumb drive) re-download your Linux distribution of choice and use Balena Etcher to flash the drive again.
