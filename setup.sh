@@ -2,7 +2,7 @@
 
 # Use f8 to boot from USB and install Linux. Then ...
 
-apt-get install -y qgis gimp
+apt-get install -y qgis gimp neovim
 
 # Now copy your documents from the old machine to the new machine via your thumb drive or backup drive.
 
