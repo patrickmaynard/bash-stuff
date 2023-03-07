@@ -2,7 +2,7 @@
 
 # Use f8 to boot from USB and install Linux. Then ...
 
-sudo apt-get install -y qgis gimp neovim python3 screen git
+sudo apt-get install -y qgis gimp neovim python3 screen git curl wget
 
 mkdir -p $HOME/.config && cd $HOME/.config && git clone https://github.com/kevinquinnyo/nvim.git
 
