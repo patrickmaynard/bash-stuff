@@ -4,6 +4,14 @@
 
 sudo apt-get install -y qgis gimp neovim python3 python3-pip screen git curl wget musescore3 whois tldr
 
+# Now we configure the terminal to copy automatically on select, like iTerm2 does, per https://superuser.com/a/1721880
+
+touch ~/.Xresources
+
+echo "xterm*selectToClipboard: true" >> ~/.Xresources
+
+# NeoVim stuff ...
+
 mkdir -p $HOME/.config && cd $HOME/.config && git clone https://github.com/kevinquinnyo/nvim.git
 
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
