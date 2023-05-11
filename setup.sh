@@ -27,4 +27,6 @@ sudo pip3 install --upgrade neovim
 
 # Then reinstall PHPStorm anyway, since it has better Symfony support than neovim, using a Google Drive document to hang onto the necessary user key.
 
+sudo snap install phpstorm --classic
+
 # Then reinstall Skype, using the Microsoft email address that you never use in that same document. (You'll have to reset the password that you also never use.)
