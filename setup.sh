@@ -2,7 +2,7 @@
 
 # Use f8 to boot from USB and install Linux. Then ...
 
-sudo apt-get install -y qgis gimp neovim python3 python3-pip screen git curl wget musescore3 whois tldr gnupg kgpg php-cli
+sudo apt-get install -y qgis gimp neovim python3 python3-pip screen git curl wget musescore3 whois tldr gnupg kgpg php-cli sqlite3
 
 # Now we configure the terminal to copy automatically on select, like iTerm2 does, per https://superuser.com/a/1721880
 
