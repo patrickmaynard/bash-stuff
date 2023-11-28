@@ -3,9 +3,9 @@
 # Use f8 to boot from USB and install Linux. Then ...
 
 sudo apt-get install -y qgis gimp neovim python3 python3-pip screen git \
-    curl wget musescore3 whois tldr gnupg kgpg php-cli sqlite3 composer \
-    php-xml php-curl php-sqlite3 php-mysql mariadb-client-core-10.6 npm \
-    tree docker docker-compose
+    curl wget musescore3 whois tldr gnupg kgpg php-cli sqlite3 composer npm \
+    php-xml php-curl php-sqlite3 php-mysql mariadb-client-core mariadb-client \
+    tree wmdocker docker-compose
 
 # Now we configure the terminal to copy automatically on select, like iTerm2 does, per https://superuser.com/a/1721880
 
