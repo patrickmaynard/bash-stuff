@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# Use f8 to boot from USB and install Linux. Then ...
+# Use f8 to boot from USB and install Linux. Be sure to copy all old files onto the thumb drive.
+
+# Then ...
 
 sudo apt-get install -y qgis gimp neovim python3 python3-pip screen git \
     curl wget musescore3 whois tldr gnupg kgpg php-cli sqlite3 composer npm \
