@@ -7,7 +7,7 @@
 sudo apt-get install -y qgis gimp neovim python3 python3-pip screen git \
     curl wget musescore3 whois tldr gnupg kgpg php-cli sqlite3 composer npm \
     php-xml php-curl php-sqlite3 php-mysql mariadb-client-core mariadb-client \
-    tree wmdocker docker-compose audacity
+    tree wmdocker docker-compose audacity openshot-qt
 
 # Now we configure the terminal to copy automatically on select, like iTerm2 does, per https://superuser.com/a/1721880
 
