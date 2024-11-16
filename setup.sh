@@ -36,3 +36,8 @@ sudo pip3 install --upgrade neovim
 sudo snap install phpstorm --classic
 
 # Then reinstall Skype, using the Microsoft email address that you never use in that same document. (You'll have to reset the password that you also never use.)
+
+# Then add the Symfony CLI command. 
+
+curl -1sLf 'https://dl.cloudsmith.io/public/symfony/stable/setup.deb.sh' | sudo -E bash
+sudo apt install symfony-cli
